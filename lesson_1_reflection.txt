@@ -1,0 +1,20 @@
+1.Q : How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer : It helps me to find where are the changes has been done and with this, I was able to find where the bug was introduced.
+
+2.Q : How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer : Accessing history of a file helps me to look what are the changes has been done in the new file and "are the changes good?". It helps to compare files or somtimes we may need older version.
+
+3.Q : What do you think are the pros and cons of manually choosing hen to create a commit, like you do in Git, vs having versions utomatically saved, like Google Docs does?
+Answer : If we are making any changes on code and it is automatically getting saved then the versions of file may be logically incorrect so better we should do mannual save. But Cons of manual saving is that user may save too frequently or late. So in manual saving user/programmer should when we should make commit.
+
+4.Q : Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Answer : Git version control systems is made for coding projects where multiples files are related. And the cases comes when we require multiple files to be commited at the same time. And thats why Git is made for.
+
+5.Q : How can you use the commands git log and git diff to view the history of files?
+Answer : git log can be used to get all the history changes done in the files with name and date. And git diff can be used to find the difference between changes between two commits using their commit ids.
+
+6.Q : How might using version control make you more confident to make changes that could break something?
+Answer : Version control hepls to go back to older commits, so even my new commit could break something, we can go back to older commit by using git checkout <commit_id>
+
+7.Q : Now that you have your workspace set up, what do you want to try using Git for?
+Answer : Yes, workspace has been set up. I want to use Git for Android Application making.
