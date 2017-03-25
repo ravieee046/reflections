@@ -1,0 +1,5 @@
+Q1. : What happens when you initialize a repository? Why do you need to do it?
+Answer : Initializing a repository makes some hidden file like .git and these files keep track of all the history of the files and their commits. We need it because if we want to keep track of my history as well as if I want to compare my older version of files with newer one. And also it helps to debug files.
+
+Q2 : How is the staging area different from the working directory and the repository? What value do you think it offers?
+Answer : Working directory contains all the files. Repository keeps track of all the files with commit ids. When we want some of the files to commit from working directory we have to add it into staging area. It offers value like we can differantiate the files which to be commited an which to be not.
