@@ -3,3 +3,13 @@ Answer : Initializing a repository makes some hidden file like .git and these fi
 
 Q2 : How is the staging area different from the working directory and the repository? What value do you think it offers?
 Answer : Working directory contains all the files. Repository keeps track of all the files with commit ids. When we want some of the files to commit from working directory we have to add it into staging area. It offers value like we can differantiate the files which to be commited an which to be not.
+
+Q3 : How can you use the staging area to make sure you have one commit per logical change?
+Answer : We can compare the files staging area to the latest commit using command "git diff --staged". And by comparing we can get to know that this commit will be only logical change. If its more than one logical change then we can remove that change from staging area to working directory.
+
+Q4 : What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer : There are some situations in which current version is working fine and want give it to users and we work on enhancements and adding new features, then we create a branch like master which will be latest code with added new features and bug fixes and one other branch with some name which will be given to the users.
+So branching helps in this situation as we can switch between branches when needed.
+
+Q5 : How do the diagrams help you visualize the branch structure?
+Answer : Diagram shows the structures of commits that has been made and at the same if any branch is created then that can also be visualize. Using diagram we can check which commits are reachable and not.
