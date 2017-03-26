@@ -13,3 +13,6 @@ So branching helps in this situation as we can switch between branches when need
 
 Q5 : How do the diagrams help you visualize the branch structure?
 Answer : Diagram shows the structures of commits that has been made and at the same if any branch is created then that can also be visualize. Using diagram we can check which commits are reachable and not.
+
+Q6 : What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer : Merging branches will merge the other branch with the branch which is checked out. It will sort the commit ids with time stamp. And all the changes will be merged. Diagrams make the things clear and we can visualize the thing more clearly. In diagram we can actually see where it is getting merged, where the branches were made.
