@@ -16,3 +16,6 @@ Answer : Diagram shows the structures of commits that has been made and at the s
 
 Q6 : What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Answer : Merging branches will merge the other branch with the branch which is checked out. It will sort the commit ids with time stamp. And all the changes will be merged. Diagrams make the things clear and we can visualize the thing more clearly. In diagram we can actually see where it is getting merged, where the branches were made.
+
+Q7 : What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer : Git's automatic merging is good when there is no conflicts but when conflicts are we have to search it in the files and resolve it do manual commit. Always doing merges manually is not a good idea as conflict does not occur always.
