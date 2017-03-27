@@ -8,3 +8,6 @@ Q3 : Describe the differences between forks, clones, and branches. When would yo
 Answer : Forks - It means to download/copy other project to own github account. It can be used when we want make changes on other projects and use them and also want to maintain git repositary.
 Clones - Cloning the project means downloading project from given url to our own machine. It is local repositary to our system. we can make changes to our local system and commit changes and at last if it is done, we can push the changes to remote.
 Branches : We create branch of a project generally when we want to continue our work on project as well as we want to use it. Other example can be two different versions of a project like easy-hard.
+
+Q4 : What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer : It helps to check whether local commits are present (means any commits are there ahead of last known state of remote) because it compares from last known state of the remote.
