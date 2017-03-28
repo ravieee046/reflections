@@ -14,3 +14,7 @@ Answer : It helps to check whether local commits are present (means any commits 
 
 Q5 : How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Answer : Version Control like CVS, SVN or mercurial can be used for our project purpose. Learning SVN is easy but we have to be alsways in connect with repositary(online) but this not the case with Git.
+
+Q6 : When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer : When we want that our changes should be approved or reviewed by others, then we make different branch and make a pull request. Benefit of that is others are knowing that what changes are being done before commiting to master branch.
+But if we dont want to be reviewed by others then we can directly commit to master branch. Benefit is, we dont have to make pull request that is little complex.
