@@ -11,3 +11,6 @@ Branches : We create branch of a project generally when we want to continue our 
 
 Q4 : What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer : It helps to check whether local commits are present (means any commits are there ahead of last known state of remote) because it compares from last known state of the remote.
+
+Q5 : How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer : Version Control like CVS, SVN or mercurial can be used for our project purpose. Learning SVN is easy but we have to be alsways in connect with repositary(online) but this not the case with Git.
